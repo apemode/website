@@ -2,7 +2,7 @@
     height: 50px;
 }
 .carousel-item {
-  height: auto;
+  height: auto !important;
 }
 .carousel-item video {
     width: 100%;
