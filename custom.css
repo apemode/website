@@ -1,0 +1,32 @@
+.navbar-brand img {
+    height: 50px;
+}
+
+.carousel-inner {
+    height: 900px;
+}
+.carousel-item video {
+    width: 100%;
+}
+a.nav-link {
+    font-family: 'Fjalla One',
+    sans-serif;
+}
+@media (min-width: 768px) {
+    .navbar-expand-md .navbar-collapse {
+        display: -ms-flexbox !important;
+        display: flex !important;
+        -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navbar-nav {
+        margin-left: -105px;
+    }
+    .navbar-expand-md .navbar-nav .nav-link {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+}
