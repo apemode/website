@@ -11,6 +11,16 @@ a.nav-link {
     font-family: 'Fjalla One',
     sans-serif;
 }
+
+.marketing h2 {
+    margin-top: 1rem; 
+}
+
+.marketing img {
+    width: 225px;
+    height: 225px;
+}
+
 @media (min-width: 768px) {
     .navbar-expand-md .navbar-collapse {
         display: -ms-flexbox !important;
