@@ -21,6 +21,62 @@ a.nav-link {
     height: 225px;
 }
 
+#pixlee_container {
+    width: 100%;
+}
+
+.featurette-divider.gallery {
+    margin-bottom: 2rem;
+}
+.featurette-heading {
+    margin-bottom: 2rem;
+}
+.social-media img {
+    width: 35px;
+}
+
+.container.testimonials {
+    margin-top: 7rem;
+}
+.container.training {
+  margin-top: 7rem;
+}
+
+.container.testimonials h2 {
+  margin-bottom: 3rem;
+}
+
+.container.testimonials blockquote {
+    font-family: 'Hepta Slab',serif;
+}
+.container.testimonials footer.blockquote-footer {
+    font-family: -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    "Helvetica Neue",
+    Arial,
+    "Noto Sans",
+    sans-serif,
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol",
+    "Noto Color Emoji";
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+hr.testimonials {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.blockquote-footer {
+    margin-top: 1rem;
+    font-size: 18px;
+}
+
 @media (min-width: 768px) {
     .navbar-expand-md .navbar-collapse {
         display: -ms-flexbox !important;
