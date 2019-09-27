@@ -47,7 +47,8 @@ a.nav-link {
 }
 
 .container.testimonials blockquote {
-    font-family: 'Hepta Slab',serif;
+    font-family: 'Abel',serif;
+    font-size: 1.5rem;
 }
 .container.testimonials footer.blockquote-footer {
     font-family: -apple-system,
@@ -75,7 +76,18 @@ hr.testimonials {
 .blockquote-footer {
     margin-top: 1rem;
     font-size: 18px;
+    text-transform: uppercase !important;
 }
+
+ul {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.ul-long li {
+    padding-bottom: 1rem;
+}
+
 
 @media (min-width: 768px) {
     .navbar-expand-md .navbar-collapse {
