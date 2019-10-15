@@ -1,188 +1,471 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="generator" content="Jekyll v3.8.5">
     <title>APE MODE</title>
-    <link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
-    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/carousel/">
-    
-    <!-- Bootstrap core CSS -->
-<link href="bootstrap.min.css" rel="stylesheet">
-<link href="custom.css" rel="stylesheet">
-<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-
-
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-    </style>
-    <!-- Custom styles for this template -->
-    <link href="carousel.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/vendor.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/custom.css" />
   </head>
   <body>
-    <header>
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    <a class="navbar-brand" href="index.html"><img src="assets/img/white_logo_no_background.png" alt=""></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarCollapse">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="training.html">TRAINING <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="testimonials.html">TESTIMONIALS</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">ABOUT US</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">CONTACT</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-</header>
 
-<main role="main">
 
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <video autoplay muted>
-          <source src="assets/intro_video.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
-        <!-- <div class="container">
-          <div class="carousel-caption text-left">
-            <h1>Example headline.</h1>
-            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-            <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+    <!-- header -->
+    <header class="header-sticky header-light">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand" href="./index.html">
+            <img class="navbar-logo navbar-logo-light" src="./assets/images/white_logo_no_background.png" alt="Logo">
+            <img class="navbar-logo navbar-logo-dark" src="./assets/images/black_logo_no_background.png" alt="Logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="burger"><span></span></span></button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav align-items-center mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html" role="button">
+                  Home
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html" role="button">
+                  Training
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./store.html" role="button">
+                  Shop
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html" role="button">
+                  Contact
+                </a>
+              </li>
+            </ul>
           </div>
-        </div> -->
+        </nav>
       </div>
-      <!-- <div class="carousel-item">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
-        <div class="container">
-          <div class="carousel-caption">
-            <h1>Another example headline.</h1>
-            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-            <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+    </header>
+    <!-- header -->
+
+
+    <!-- cover -->
+    <section class="bg-light">
+      <div class="container pt-5">
+        <div class="row justify-content-center">
+          <div class="col-md-8 text-center">
+            <h1 class="display-3">Take your training to the <b>professional</b> level</h1>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-10">
+            <video
+              poster="./assets/images/intro-video-thumb.png"
+              id="video"
+              class="youtube video-js vjs-default-skin video-16-9"
+              controls
+              width="640" height="264"
+              data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "https://www.youtube.com/watch?v=DkeiKbqa02g"}], "youtube": { "ytControls": 2 } }'
+            >
+            </video>
+          </div>
+        </div>
+        <div class="row justify-content-center mt-10">
+          <div class="col-md-8 col-xl-6">
+            <div class="row gutter-2 separated text-center">
+              <div class="col-md-4">
+                <h4 class="fs-30 font-weight-normal mb-0">3000+</h4>
+                <span class="text-muted">Training Sessions</span>
+              </div>
+              <div class="col-md-4">
+                <h4 class="fs-30 font-weight-normal mb-0">47+</h4>
+                <span class="text-muted">Atheletes worldwide</span>
+              </div>
+              <div class="col-md-4">
+                <h4 class="fs-30 font-weight-normal mb-0">12</h4>
+                <span class="text-muted">Professional Teams</span>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <div class="carousel-item">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
-        <div class="container">
-          <div class="carousel-caption text-right">
-            <h1>One more for good measure.</h1>
-            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-            <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
-          </div>
-        </div>
-      </div> -->
+    </section>
+    <!-- / cover -->
+
+
+    <!-- partners -->
+<section class="bg-dark text-white separator-top">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-8 text-center">
+        <h2>Kind Words</h2>
+      </div>
     </div>
-    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <div class="owl-carousel visible accent owl-loaded owl-drag" data-dots="true" data-loop="true" data-margin="100"
+          data-autoplay="true">
+
+
+
+          <div class="owl-stage-outer">
+            <div class="owl-stage"
+              style="transform: translate3d(-3746px, 0px, 0px); transition: all 10s ease 0s; width: 6557px;">
+              <div class="owl-item cloned" style="width: 836.656px; margin-right: 100px;">
+                <blockquote class="blockquote blockquote-1">
+                  <p>Antonios always had new and effective ways that mimicked the movements and patterns of swimming, I
+                    really enjoyed
+                    training with him as it was always a very positive environment.</p>
+                  <footer class="blockquote-footer">
+                    <div class="media align-items-center">
+                      
+                      <div class="media-body ml-2">
+                        <span class="d-block mb-0 text-white">RALPH MAJDALANI</span>
+                        <small>OLYMPIC SWIMMER</small>
+                      </div>
+                    </div>
+                  </footer>
+                </blockquote>
+              </div>
+              <div class="owl-item cloned" style="width: 836.656px; margin-right: 100px;">
+                <blockquote class="blockquote blockquote-1">
+                  <p>Antonios helped me with my mobility above all! He also improved my core strength which gave me far greater results on
+                  the track.</p>
+                  <footer class="blockquote-footer">
+                    <div class="media align-items-center">
+                      <div class="media-body ml-2">
+                        <span class="d-block mb-0 text-white">NOUR HADID</span>
+                        <small>OLYMPIC SPRINTER</small>
+                      </div>
+                    </div>
+                  </footer>
+                </blockquote>
+              </div>
+              <div class="owl-item" style="width: 836.656px; margin-right: 100px;">
+                <blockquote class="blockquote blockquote-1">
+                  <p>Antonios helped me with my off-season programming. He got me ready for training camp and I am very grateful!</p>
+                  <footer class="blockquote-footer">
+                    <div class="media align-items-center">
+                      <div class="media-body ml-2">
+                        <span class="d-block mb-0 text-white">NDZEMDZELA LANGWA</span>
+                        <small>PROFESSIONAL SOCCER PLAYER</small>
+                      </div>
+                    </div>
+                  </footer>
+                </blockquote>
+              </div>
+              <div class="owl-item" style="width: 836.656px; margin-right: 100px;">
+                <blockquote class="blockquote blockquote-1">
+                  <p>Off-season is the most crucial part to ensuring a successful upcoming season. Through specialized programming which
+                  tailored to my needs as an athlete, I felt very confident going into training camp.</p>
+                  <footer class="blockquote-footer">
+                    <div class="media align-items-center">
+                      <div class="media-body ml-2">
+                        <span class="d-block mb-0 text-white">JEFF ADDAI</span>
+                        <small>PROFESSIONAL SOCCER PLAYER</small>
+                      </div>
+                    </div>
+                  </footer>
+                </blockquote>
+              </div>
+              <div class="owl-item active" style="width: 836.656px; margin-right: 100px;">
+                <blockquote class="blockquote blockquote-1">
+                  <p>Being a young athlete, Antonios always made sure that I was consistent with my mobility which I neglected. It only took
+                  a few weeks for me to notice my athletic ability improving drastically.</p>
+                  <footer class="blockquote-footer">
+                    <div class="media align-items-center">
+                      <div class="media-body ml-2">
+                        <span class="d-block mb-0 text-white">HAYDAR TARHINI</span>
+                        <small>PROFESSIONAL SOCCER PLAYER</small>
+                      </div>
+                    </div>
+                  </footer>
+                </blockquote>
+              </div>
+              <div class="owl-item cloned" style="width: 836.656px; margin-right: 100px;">
+                <blockquote class="blockquote blockquote-1">
+                  <p>The most importing aspect that Antonios has helped me with was reshaping my mentality which most trainers neglect.
+                  Antonios came through in a time when my thoughts were consuming me and he refueled my ambition, hunger for success and
+                  fierceness on court.</p>
+                  <footer class="blockquote-footer">
+                    <div class="media align-items-center">
+                      <div class="media-body ml-2">
+                        <span class="d-block mb-0 text-white">MAHMOUD DAOU</span>
+                        <small>OLYMPIC SPRINTER</small>
+                      </div>
+                    </div>
+                  </footer>
+                </blockquote>
+              </div>
+              <div class="owl-item cloned" style="width: 836.656px; margin-right: 100px;">
+                <blockquote class="blockquote blockquote-1">
+                  <p>Antonios has helped me improve my strength and speed and made me look forward to each session.</p>
+                  <footer class="blockquote-footer">
+                    <div class="media align-items-center">
+                      <div class="media-body ml-2">
+                        <span class="d-block mb-0 text-white">ALI EL HAJJ</span>
+                        <small>U23 LEBANESE NATIONAL TEAM</small>
+                      </div>
+                    </div>
+                  </footer>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+          <div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev"><span
+                aria-label="Previous">‹</span></button><button type="button" role="presentation" class="owl-next"><span
+                aria-label="Next">›</span></button></div>
+          <div class="owl-dots"><button role="button" class="owl-dot"><span></span></button><button role="button"
+              class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button></div>
+        </div>
+      </div>
+    </div>
   </div>
+</section>
+    <!-- / partners -->
 
 
-  <!-- Marketing messaging and featurettes
-  ================================================== -->
-  <!-- Wrap the rest of the page in another container to center all the content. -->
-
-  <div class="container marketing">
-
-    <!-- Three columns of text below the carousel -->
-    <div class="row">
-      <div class="col-lg-4">
-        <img class="rounded-circle" src="assets/img/opsm_logo.png"></img>
-        <h2>OPSM PRO PARTNER</h2>
-        <p>APE MODE fitness is a direct partner with OPSM. Aiding their atheletes the with tools needed to be as success
-          as possible.</p>
-        <p><a class="btn btn-secondary" href="#" role="button">Learn More</a></p>
-      </div><!-- /.col-lg-4 -->
-      <div class="col-lg-4">
-        <img class="rounded-circle" src="assets/img/training.png"></img>
-        <h2>PERSONAL & TEAM TRAINING</h2>
-        <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-        <p><a class="btn btn-secondary" href="#" role="button">Learn More</a></p>
-      </div><!-- /.col-lg-4 -->
-      <div class="col-lg-4">
-        <img class="rounded-circle" src="assets/img/logo_square.png"></img>
-        <h2>TESTIMONIALS</h2>
-        <p>Read testimonials from our happy clients including professional atheletes</p>
-        <p><a class="btn btn-secondary" href="testimonials.html" role="button">View Testimonials</a></p>
-      </div><!-- /.col-lg-4 -->
-    </div><!-- /.row -->
-
-
-    <!-- START THE FEATURETTES -->
-    
-
-    <hr class="featurette-divider gallery">
-
-    <div class="row featurette">
-      <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading">Our Partners</h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+    <!-- presentation -->
+    <section class="section-lg">
+      <div class="container">
+        <div class="row my-10">
+          <div class="col-lg-12">
+            <div class="row">
+              <div class="col">
+                <h2>The <b>right way</b> <br>to train</h2>
+              </div>
+            </div>
+            <div class="row gutter-3">
+              <div class="col-md-6" data-aos="fade-up">
+                <div class="media">
+                  <i class="icon-bar-chart-2 fs-30 text-dark mr-2"></i>
+                  <div class="media-body">
+                    <h5 class="mt-0 text-uppercase font-weight-bold fs-14 letter-spacing">Performance Assessments</h5>
+                    <p>Every player is different. We take each player through tests to determine weaknesses and areas of improvement. Test like the overhead squat assessment are used to measure overall musculoskeletal function. Imbalances are recorded and help us plan future training.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6" data-aos="fade-up">
+                <div class="media">
+                  <i class="icon-power fs-30 text-dark mr-2"></i>
+                  <div class="media-body">
+                    <h5 class="mt-0 text-uppercase font-weight-bold fs-14 letter-spacing">Strength and Conditioning</h5>
+                    <p>The most important part of preparing young athletes to endure a hard workload of a season. Increasing potential performance in the off-season has many benefits and is the foundation of personal athletic growth.
+                    It’s important to maintain athletic prowess, because it’s much easier to stay in shape than get back into shape!</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6" data-aos="fade-up">
+                <div class="media">
+                  <i class="icon-fire fs-30 text-dark mr-2"></i>
+                  <div class="media-body">
+                    <h5 class="mt-0 text-uppercase font-weight-bold fs-14 letter-spacing">Warm Up and Individual Mobility Exercises</h5>
+                    <p>Educating everyone on how to properly warm up and cool down for practices and matches. This is critical for preventing injuries and ensuring athletes are performing at their best.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6" data-aos="fade-up">
+                <div class="media">
+                  <i class="icon-check-circle2 fs-30 text-dark mr-2"></i>
+                  <div class="media-body">
+                    <h5 class="mt-0 text-uppercase font-weight-bold fs-14 letter-spacing">Targeted Endurance, Speed and Agility Training</h5>
+                    <p>Each position should be trained differently. We do not train a striker to function exactly like a central defender. Strikers need reaction exercises, explosive movements, jumping and switching
+                    directions.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6 presentation presentation-responsive">
+            <!-- <img class="left-0 vertical-align" src="./assets/images/demo/service/macbook.png" alt="Image"> -->
+          </div>
+        </div>
       </div>
-      <div class="col-md-5 order-md-1">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+    </section>
+    <!-- / presentation -->
+
+
+    <!-- blog -->
+    <section class="bg-light">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6 text-center">
+            <h2>Our <b>gallery</b></h2>
+          </div>
+        </div>
+        <div class="row mb-1">
+          <div class="col">
+            <ul class="masonry row gutter-1">
+              <li class="col-md-4" data-aos="fade-up">
+                <article class="tile">
+                  <div class="tile-image" style="background-image: url(./assets/images/training_kettlebell.png)"></div>
+                  <!-- <a href="" class="tile-content">
+                    <div class="tile-footer">
+                      <span class="eyebrow mb-1">Design</span>
+                      <h3>Quick guide on traveling with friends.</h3>
+                    </div>
+                  </a> -->
+                </article>
+              </li>
+              <li class="col-md-4" data-aos="fade-up">
+                <article class="tile tile-long">
+                  <div class="tile-image" style="background-image: url(./assets/images/training-4.jpg)"></div>
+                  <!-- <a href="" class="tile-content">
+                    <div class="tile-footer">
+                      <span class="eyebrow mb-1">Design</span>
+                      <h3>Quick guide on traveling with friends.</h3>
+                    </div>
+                  </a> -->
+                </article>
+              </li>
+              <li class="col-md-4" data-aos="fade-up">
+                <article class="tile">
+                  <div class="tile-image" style="background-image: url(./assets/images/team_training.jpg)"></div>
+                  <!-- <a href="" class="tile-content">
+                    <div class="tile-footer">
+                      <span class="eyebrow mb-1">Design</span>
+                      <h3>Quick guide on traveling with friends.</h3>
+                    </div>
+                  </a> -->
+                </article>
+              </li>
+              <li class="col-md-4" data-aos="fade-up">
+                <article class="tile tile-long">
+                  <div class="tile-image" style="background-image: url(./assets/images/training-3.jpg)"></div>
+                  <!-- <a href="" class="tile-content">
+                    <div class="tile-footer">
+                      <span class="eyebrow mb-1">Design</span>
+                      <h3>Quick guide on traveling with friends.</h3>
+                    </div>
+                  </a> -->
+                </article>
+              </li>
+              <li class="col-md-4" data-aos="fade-up">
+                <article class="tile tile-long">
+                  <div class="tile-image" style="background-image: url(./assets/images/training-5.jpg)"></div>
+                  <!-- <a href="" class="tile-content">
+                    <div class="tile-footer">
+                      <span class="eyebrow mb-1">Design</span>
+                      <h3>Quick guide on traveling with friends.</h3>
+                    </div>
+                  </a> -->
+                </article>
+              </li>
+              <li class="col-md-4" data-aos="fade-up">
+                <article class="tile">
+                  <div class="tile-image" style="background-image: url(./assets/images/training.png)"></div>
+                  <!-- <a href="" class="tile-content">
+                    <div class="tile-footer">
+                      <span class="eyebrow mb-1">Design</span>
+                      <h3>Quick guide on traveling with friends.</h3>
+                    </div>
+                  </a> -->
+                </article>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row" data-aos="fade-up">
+          <div class="col text-center">
+            <a href="" class="btn btn-block btn-lg btn-secondary">Load More</a>
+          </div>
+        </div>
       </div>
-    </div>
-
-    <hr class="featurette-divider">
-
-    <div class="row featurette">
-      <h2 class="featurette-heading">Gallery</h2>
-      <div id="pixlee_container"></div>
-      <script
-        type="text/javascript">window.PixleeAsyncInit = function () { Pixlee.init({ apiKey: 'LUcqlFtL9ZJgr_N4JT8Y' }); Pixlee.addSimpleWidget({ widgetId: '21394' }); };</script>
-      <script src="http://instafeed.assets.pixlee.com/assets/pixlee_widget_1_0_0.js"></script>
-    </div>
-
-    <hr class="featurette-divider">
-
-    <!-- /END THE FEATURETTES -->
-
-  </div><!-- /.container -->
+    </section>
+    <!-- / blog -->
 
 
-  <!-- FOOTER -->
-  <footer class="container">
-    <p class="float-right"><a href="#">Back to top</a></p>
-    <p>&copy;2019 Ape Mode Fitness &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a> &middot; <a href="https://www.instagram.com/apemodefitness/" class="social-media">Instagram <img src="assets/img/instagram-logo.png"></a>
-    <a href="https://www.facebook.com/apemodefitness/" class="social-media">Facebook <img src="assets/img/facebook-logo.png"></a></p>
-  </footer>
-</main>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-      <script>window.jQuery || document.write('<script src="/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')</script><script src="bootstrap.bundle.min.js"></script></body>
+    <!-- pricing -->
+    <section class="bg-dark">
+      <div class="container mb-0">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-lg-6 text-white text-center">
+            <h2><b>Pricing</b> Plans</h2>
+            <p class="lead">Don't see what you're looking for? Contact us for customized training packages</p>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="tab-content" id="myTabContent-2">
+              <div class="tab-pane show active" id="pricing-first" role="tabpanel" aria-labelledby="first-tab">
+                <div class="row gutter-2">
+                  <div class="col-md-6 text-white" data-aos="fade-right">
+                    <div class="card card-price bordered rising">
+                      <div class="card-body">
+                        <h4 class="card-title">Individual Training</h4>
+                        <p>Personalized training sessions specific to each individuals goals.</p>
+                        <ul class="list-group list-group-minimal">
+                          <li class="list-group-item text-muted">&#8226; Athletic Training</li>
+                          <li class="list-group-item text-muted">&#8226; Weight Loss</li>
+                          <li class="list-group-item text-muted">&#8226; Strength and Conditioning</li>
+                          <li class="list-group-item text-muted">&#8226; Rehabilitation</li>
+                        </ul>
+                      </div>
+                      <a href="" class="card-footer">
+                        <strong class="card-price">$75</strong>/session
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-md-6" data-aos="fade-left">
+                    <div class="card card-price bordered rising">
+                      <div class="card-body">
+                        <h4 class="card-title">Team Training</h4>
+                        <p>Are you looking to bring your sports team to the next level?</p>
+                        <ul class="list-group list-group-minimal">
+                          <li class="list-group-item text-muted">&#8226; Performance Assessments</li>
+                          <li class="list-group-item text-muted">&#8226; Strength and Conditioning</li>
+                          <li class="list-group-item text-muted">&#8226; Warn up and Individual Mobility Exercises</li>
+                          <li class="list-group-item text-muted">&#8226; Endurance, Speed and Agility</li>
+                        </ul>
+                      </div>
+                      <a href="" class="card-footer">
+                        <strong class="card-price">$2500</strong>/session
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- / pricing -->
+
+
+    <!-- footer -->
+    <footer>
+      <div class="container pb-5">
+        <div class="row">
+          <div class="col">
+            <h2 class="h3">505 Industrial Ave. <br>Ottawa, Ontario</h2>
+          </div>
+          <div class="col text-right">
+            <ul class="list-group list-group-minimal">
+              <li class="list-group-item"><a href="">Facebook</a></li>
+              <li class="list-group-item"><a href="">Instagram</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="container py-5">
+        <div class="row justify-content-between align-items-center">
+          <div class="col">
+            <img class="logo-sm" src="./assets/images/apemode_logo_black_nobackground.png" alt="Logo">
+          </div>
+          <div class="col text-right">
+            <span class="copyright-text">&copy; APE MODE</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- / footer -->
+
+
+
+    <script src="./assets/js/vendor.js"></script>
+    <script src="./assets/js/app.js"></script>
+  </body>
 </html>

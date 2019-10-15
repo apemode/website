@@ -1,0 +1,25 @@
+.navbar-brand {
+  height: 100px;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+  margin-right: 3rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #000;
+}
+
+
+.header-dark[class*="-not-top"][class*="-pinned"] .navbar-nav .nav-item .nav-link,
+.header-light[class*="-not-top"][class*="-pinned"] .navbar-nav .nav-item .nav-link {
+  color: #333;
+}
+
+.section-store {
+  padding-top: 12rem;
+}
