@@ -5,6 +5,20 @@
   margin-right: 3rem;
 }
 
+@media only screen and (max-width: 600px) {
+  .navbar-brand {
+    width: 230px;
+  }
+  .navbar button.navbar-toggler {
+    bottom: 10px;
+    position: relative;
+  }
+
+  .container.pt-5.tagline {
+    padding-top: 8.125rem !important;
+  }
+}
+
 .navbar-light .navbar-nav .nav-link {
   font-size: 1.2rem;
   color: #333;
